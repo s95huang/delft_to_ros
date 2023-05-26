@@ -37,8 +37,8 @@ topic_gt = "/perception/object_recognition/detection/objects"
 
 
 
-kitti_locations = KittiLocations(root_dir="/mnt/0c39e9c4-f324-420d-a1e9-f20a41d147a8/personal_repos/LoopX/4d_radar_dataset/view_of_delft_PUBLIC",
-                                output_dir="/mnt/0c39e9c4-f324-420d-a1e9-f20a41d147a8/personal_repos/LoopX/4d_radar_dataset/delft_to_ros/output/")
+kitti_locations = KittiLocations(root_dir="/view_of_delft_PUBLIC",
+                                output_dir="/delft_to_ros/output/")
 
 limit = 1000 # 1000 frames is about 9GB of data (raw images)
 
